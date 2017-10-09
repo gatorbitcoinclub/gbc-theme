@@ -10,18 +10,18 @@ $emailMethod                = 'smtp'; // REQUIRED value. Options: 'smtp' , 'phpm
 
 // Outgoing Server Settings - replace values on the right of the = sign with your own.
 // These 3 settings are only required if you choose 'smtp' for emailMethod above.
-$outgoingServerAddress      = 'mail.felipefaria.me'; // Consult your hosting provider.
-$outgoingServerPort         = '465';                  // Options: '587' , '25' - Consult your hosting provider.
+$outgoingServerAddress      = ''; // Consult your hosting provider.
+$outgoingServerPort         = '';                  // Options: '587' , '25' - Consult your hosting provider.
 $outgoingServerSecurity     = 'tls';                 // Options: 'ssl' , 'tls' , null - Consult your hosting provider.
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
 // These 2 settings are only required if you choose 'smtp' for emailMethod above.
-$sendingAccountUsername     = 'bitcoin@felipefaria.me';
-$sendingAccountPassword     = 'felipe0506';
+$sendingAccountUsername     = '';
+$sendingAccountPassword     = '';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
-$recipientEmail             = 'felipefaria@ufl.edu'; // REQUIRED value.
-$recipientName              = 'Bitcoin Club';             // REQUIRED value.
+$recipientEmail             = ''; // REQUIRED value.
+$recipientName              = '';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
 $emailSubject               = 'GBT: Contact Us Form'; // REQUIRED value. Subject of the email that the recipient will see
