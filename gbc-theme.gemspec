@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   ## If I no longer support this code, feel free to email me.
 
   spec.summary       = "The designated Jekyll theme for the Gator Bitcoin Club."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/gatorbitcoinclub/gbc-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
